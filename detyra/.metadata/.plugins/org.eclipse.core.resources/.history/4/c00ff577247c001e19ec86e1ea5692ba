@@ -1,0 +1,13 @@
+package detyra;
+import java.util.Scanner;
+public class temperatura {
+
+	public static void main(String[] args) {
+		Scanner temperatura = new Scanner(System.in);
+		double temp1,temp2;
+		System.out.println("Sheno temperaturen e ferenheit: ");
+		temp1 
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package ushrime;
+//ushtrime me scanner
+import java.util.Scanner; //kjo eshte libraria scanner mund ta shenojm edhe java.util.* per ti mare te gjitha librarite e utilit
+public class ushtrime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ushtrime = new Scanner(System.in); // krijimi i skanerit ushtrime
+		System.out.println("Emri: ");//System.out.println eshte nje kod i cili shfaq 
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package detyra;
+import java.util.*;
+public class detyra1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner user = new Scanner(System.in);
+		String emriPerdoruesit;
+		int vleraNje, vleraDy;
+		
+		System.out.println("Si quheni? ");
+		System.out.println("Pershendetje!👾 " + user.nextLine());
+		System.out.println("Zgjidhni dy numra ");
+		user.nextInt();
+		user.nextInt();
+		System.out.println()
+
+	}
+
+}

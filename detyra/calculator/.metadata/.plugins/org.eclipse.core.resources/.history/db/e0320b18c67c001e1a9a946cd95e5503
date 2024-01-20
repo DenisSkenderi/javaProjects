@@ -1,0 +1,18 @@
+package calculator;
+import java.util.Scanner;
+import java.math.*;
+public class calculator {
+
+	public static void main(String[] args) {
+		Scanner cal = new Scanner(System.in);
+		System.out.println("Sheno numrin e plot");
+		int x = cal.nextInt();
+		System.out.println("Sheno simbolin: +,-,*,/");
+		double y = cal.nextDouble();
+		System.out.println("Sheno numrin e dyte te plote");
+		int x1 = cal.nextInt();
+		int z = x+y+x1;
+		System.out.println(z);
+	}
+
+}

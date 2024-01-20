@@ -1,0 +1,11 @@
+package detyra;
+import java.util.Scanner;
+public class temperatura {
+
+	public static void main(String[] args) {
+		Scanner temperatura = new Scanner(System.in);
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package calculator;
+import java.util.Scanner;
+import java.math.*;
+public class calculator {
+
+	public static void main(String[] args) {
+		Scanner cal = new Scanner(System.in);
+		char operator;
+		double x,y,z;
+		System.out.println("Shenoni operatorin");
+		operator = cal.next().charAt(0);
+		System.out.println("Sheno numrin: ");
+		x = cal.nextDouble();
+		y = 
+	}
+
+}

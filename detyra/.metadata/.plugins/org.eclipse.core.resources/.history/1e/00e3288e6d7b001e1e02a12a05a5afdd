@@ -1,0 +1,21 @@
+package detyra;
+import java.util.*;
+public class detyra1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner user = new Scanner(System.in);
+		String emri = user.nextLine();
+		int vleraNje = user.nextInt();
+		int vleraDy = user.nextInt();
+		System.out.println("Si quheni? " + emri);
+		System.out.println("Zgjethni dy numra. " + vleraNje + vleraDy);
+		int max = Math.max(vleraNje, vleraDy);
+		int min = Math.min(vleraNje, vleraDy);
+		double pow = Math.pow(vleraDy, vleraNje);
+		double pow2 = Math.pow(vleraNje, vleraDy);
+		int random = Math.random()*vleraNje+;
+
+	}
+
+}

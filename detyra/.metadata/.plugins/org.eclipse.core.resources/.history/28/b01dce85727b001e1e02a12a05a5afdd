@@ -1,0 +1,23 @@
+package ushrime;
+//ushtrime me scanner
+import java.util.Scanner; //kjo eshte libraria scanner mund ta shenojm edhe java.util.* per ti mare te gjitha librarite e utilit
+public class ushtrime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ushtrime = new Scanner(System.in); // krijimi i skanerit ushtrime
+		System.out.println("Emri: ");//System.out.println eshte nje kod i cili shfaq vlerat te cilat jane te dhena ne System.out.println
+		String name = ushtrime.nextLine();//Ne tani e kemi thirrur scannerin ushtrime dhe kur e shfaqim programin ne mund ta shenojm emrin ne kete variabel permes scannerit ushtrime
+		System.out.println("Mosha: ");
+		int age = ushtrime.nextInt();
+		System.out.println("Numer me presje dhjetore: ");
+		double pow = ushtrime.nextDouble();
+		System.out.println("Dy numra dhjetore");
+		double pow2 = ushtrime.nextDouble();
+		double pow3 = ushtrime.nextDouble();
+		System.out.println("Keta numra ne fuqi jane: ");
+		System.out.println(Math.pow(pow2, pow3));
+		System.out.println("Sheno Emrin dhe Moshen: " + name  +  age);
+	}
+
+}

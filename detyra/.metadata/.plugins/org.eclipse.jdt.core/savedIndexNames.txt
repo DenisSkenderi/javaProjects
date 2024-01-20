@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\denis\eclipse-workspace\detyra\.metadata\.plugins\org.eclipse.jdt.core
+2528419082.index
+1865797976.index
+3413270776.index
+594528098.index
